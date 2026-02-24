@@ -28,7 +28,7 @@ Aplicação web para explorar repositórios públicos do GitHub por username, co
 
 ```bash
 git clone <url-do-repositorio>
-cd leet-code-quest
+cd git-hub-list
 npm install
 ```
 
@@ -46,7 +46,7 @@ npm install
 ## Estrutura do projeto
 
 ```
-leet-code-quest/
+git-hub-list/
 ├── e2e/                          # Testes E2E (Playwright)
 │   └── repositories-flow.spec.ts
 ├── src/
