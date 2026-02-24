@@ -1,4 +1,4 @@
-# Leet Code Quest — Radar de Repositórios GitHub
+# Radar de Repositórios GitHub
 
 Aplicação web para explorar repositórios públicos do GitHub por username, com filtros por linguagem, ordenação e estatísticas agregadas em tempo quase real.
 
