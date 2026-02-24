@@ -4,7 +4,8 @@ import { FormEvent, useCallback } from "react";
 import type { RepoListQuery } from "@/src/lib/types";
 import { useSearchForm, useRepositoriesFetch } from "@/src/hooks";
 
-export function RepositoriesExplorer() {
+
+export default function Home() {
   const form = useSearchForm();
   const {
     repos,
@@ -348,8 +349,4 @@ export function RepositoriesExplorer() {
       </div>
     </main>
   );
-}
-
-export default function Home() {
-  return <RepositoriesExplorer />;
 }
